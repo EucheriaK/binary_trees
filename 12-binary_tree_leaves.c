@@ -33,5 +33,3 @@ size_t binary_tree_leaves(const binary_tree_t *tree)
 	right = binary_tree_leaves(tree->right);
 	return (left + right);
 }
-Footer
-© 2023 GitHub, Inc.
